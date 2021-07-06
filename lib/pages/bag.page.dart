@@ -17,7 +17,7 @@ class _BagPageState extends State<BagPage> {
       body: Center(
         child: Text(
           BagRoute().microAppName,
-          style: TextStyle(fontSize: 18),
+          style: TextStyle(fontSize: 25, color: Colors.green),
         ),
       ),
     );
